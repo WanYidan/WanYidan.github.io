@@ -1,57 +1,61 @@
-/* in case I didn't tell you yet - use this whenever you do anything */
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-/* 
-
-This task doesn't require setting any widths and heights so don't. 
-You will never need any pixel values other than 10px.
-Well, all the exceptions to this are already written just below (width:960px and 100px)
-
-Your job is to set some margins, paddings and floats (spoiler: and then you get in trouble :) )
-
-Oh, and you don't need any more selectors here, but you can add some if you want.
-
-DO:
-1. change the text color after you look at the HTML and the image you're reproducing
-2. uncomment the borders 
-3. do what you need to fit the outlines
-4. get in trouble with footer and solve the problem
-
-*/
-
-body{
-	/*change this to some color to see the text. ever heard of RGBA? */
-	color: rgba(0,0,0,0.3);
-    color:azure
+body {
+    font-family: sans-serif;
+   background: transparent url("http://ww2.sinaimg.cn/large/0064whBmjw1f3bb33isn5j30u01hc4e5.jpg") no-repeat center;
+    background-size: cover;
+    font-size: 12px;
 }
 
-div.wrapper {
-	width: 960px;
-	border: 2px dotted yellow;
-    margin: auto;
-    padding: 10px;
-}
-
-
-div.content {
-    padding: inherit;
-    margin-left: 120px;
-    background-color: blueviolet;
+.wrapper{
     
+    
+    width: 960px;
+    margin: 0 auto;
+    overflow:auto;
 }
 
-div.sidebar {
-	width: 100px;
-	border: 2px dotted yellow;
+.menu{
+    
+    width:300spx;
     float: left;
-    margin: 20px 0 10px;
-}
-
-
-header, footer {
-	border: 2px dotted yellow;
-    padding:inherit;
-    clear:both;
     
 }
+.menu>ul{
+    padding:0;
+}
+.menu>ul>li{
+    list-style-type: none;
+}
+.menu>ul>li>a{
+display: block;
+    border: 3px solid #000;
+    padding: 20px;
+    margin:13px;
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+}
+
+
+.dogface{
+    background: transparent url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRC_frE_ugzJKe2pSiL4O3fn81M-1ZCX9IE_qD0lwz3wpvh3nCQ") no-repeat center;
+    height: 300px;
+    width: 300px;
+}
+
+.content{
+    padding: 60px;
+    margin-left: 300px;
+    
+}
+.dogface{
+    
+    height: 300px;
+    width: 300px;
+}
+
+
+
+
+
+
 
