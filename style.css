@@ -6,9 +6,8 @@ body {
      color: white;
 }
 
-
-
 .wrapper{
+    
     
     width: 960px;
     margin: 0 auto;
@@ -16,22 +15,22 @@ body {
 }
 
 .menu{
-    
-    width:30spx;
-    
+   
+    width:600px;
+   margin: 0px auto;
     
 }
 .menu>ul{
     padding:0;
-
+    float: left;
 }
 .menu>ul>li{
     list-style-type: none;
 }
 .menu>ul>li>a{
-    display: block;
-    border: 3px solid white;
-    padding: 10px;
+display: block;
+    border: 3px  solid white;
+    padding: 20px;
     margin:13px;
     text-align: center;
     color: white;
@@ -41,30 +40,35 @@ body {
 
 .dogface{
     background: transparent url("fb3be3dc76c86259187d5961a841e7a4.jpg") no-repeat center;
-    background-size: cover;   
+    background-size: cover;
+    height:300px;
+    width: 300px;
+     margin-left: 300px;
+    
 }
-
-
 
 .content{
-    padding: 30px;
-    margin-left: 10px;
-    
-}
-.dogface{
-    
-    height: 200px;
-    width: 200px;
-    margin-left: 20px;
+    padding: 20px;
+
+    clear: both;
     
 }
 
-  
+.header{
+    width: 450px;
+    float: left;
+}
+
+
+.header1{
+    width: 950px;
+    float: left;
+}
+
 h1 img{
     width: 280px;height: 280px;
-} 
-
-
-   
-
-
+    
+}
+.article{
+    
+}
